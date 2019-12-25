@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1_VolatileKeyword", "1_Vola
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2_ThreadJoin", "2_ThreadJoin\2_ThreadJoin.csproj", "{2AD451D5-DA74-4AC8-B2FB-CE624D88CD75}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3_ThreadPool", "3_ThreadPool\3_ThreadPool.csproj", "{C71183BA-4C55-4300-95FD-B54C82DFCC29}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{2AD451D5-DA74-4AC8-B2FB-CE624D88CD75}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2AD451D5-DA74-4AC8-B2FB-CE624D88CD75}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2AD451D5-DA74-4AC8-B2FB-CE624D88CD75}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C71183BA-4C55-4300-95FD-B54C82DFCC29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C71183BA-4C55-4300-95FD-B54C82DFCC29}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C71183BA-4C55-4300-95FD-B54C82DFCC29}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C71183BA-4C55-4300-95FD-B54C82DFCC29}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
