@@ -8,3 +8,7 @@ https://www.backblaze.com/blog/whats-the-diff-programs-processes-and-threads/
 
 Thread local storage :
 https://docs.microsoft.com/en-us/windows/win32/procthread/thread-local-storage
+
+Thread Pool :
+https://www.c-sharpcorner.com/article/thread-pool-in-net-core-and-c-sharp/
+https://www.infoworld.com/article/3201030/understand-the-net-clr-thread-pool.html
