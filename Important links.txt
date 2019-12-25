@@ -1,0 +1,3 @@
+volatile  : 
+https://www.infoworld.com/article/3229360/how-to-use-the-volatile-keyword-in-c.html
+https://docs.microsoft.com/en-us/previous-versions/visualstudio/visual-studio-2012/x13ttww7(v=vs.110)?redirectedfrom=MSDN
