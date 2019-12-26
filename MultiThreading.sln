@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4_ThreadPriority", "4_Threa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5_Task", "5_Task\5_Task.csproj", "{5B137DF9-0676-48F5-A887-1F466669E85E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6_ExceptionHandling", "6_ExceptionHandling\6_ExceptionHandling.csproj", "{CA5AF9A3-2827-43A1-8D95-0A0F57F25B37}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{5B137DF9-0676-48F5-A887-1F466669E85E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5B137DF9-0676-48F5-A887-1F466669E85E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5B137DF9-0676-48F5-A887-1F466669E85E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA5AF9A3-2827-43A1-8D95-0A0F57F25B37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA5AF9A3-2827-43A1-8D95-0A0F57F25B37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA5AF9A3-2827-43A1-8D95-0A0F57F25B37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA5AF9A3-2827-43A1-8D95-0A0F57F25B37}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
