@@ -12,3 +12,13 @@ https://docs.microsoft.com/en-us/windows/win32/procthread/thread-local-storage
 Thread Pool :
 https://www.c-sharpcorner.com/article/thread-pool-in-net-core-and-c-sharp/
 https://www.infoworld.com/article/3201030/understand-the-net-clr-thread-pool.html
+
+Differences Between Task And Thread:
+https://www.c-sharpcorner.com/article/task-and-thread-in-c-sharp/
+
+Exception handling : 
+http://hamidmosalla.com/2018/06/19/exception-handling-in-asynchronous-code/
+
+
+https://devblogs.microsoft.com/pfxteam/the-nature-of-taskcompletionsourcetresult/
+https://blog.stephencleary.com/2013/11/there-is-no-thread.html

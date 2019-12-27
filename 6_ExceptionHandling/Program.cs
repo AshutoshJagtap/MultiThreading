@@ -11,6 +11,20 @@ namespace _6_ExceptionHandling
             ExceptionFromAsyncMethod();
             ExceptionFromNestedTask();
             UseMethodWithAsyncTask();
+
+            //If there is no error expected from async operation which return task and you don’t want to wit anymore.
+            //That time attached a child task with onlyOnFaulted option.
+            Task t = Task.Factory.StartNew(() => Console.WriteLine("Welcome !"));
+            t.ContinueWith(prevTask=> {
+                prevTask.Exception.Flatten().Handle(ex =>
+                {
+                    if (ex is InvalidOperationException)
+                        Console.WriteLine(ex.Message);
+
+                    return ex is InvalidOperationException;
+                });
+            }, TaskContinuationOptions.OnlyOnFaulted);
+
             Console.Read();
         }
 
